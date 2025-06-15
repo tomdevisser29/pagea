@@ -1,0 +1,45 @@
+<?php
+/**
+ * Title: Author Header
+ * Slug: pagea/author-header
+ * Categories: header, posts
+ * Description: An author header that displays the author's avatar and name.
+ * Keywords: author, header, post, intro
+ */
+?>
+<!-- wp:group {"metadata":{"name":"Author Header","categories":["header"],"patternName":"pagea/author-header"},"style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"var:preset|spacing|lg","right":"var:preset|spacing|lg"},"margin":{"top":"var:preset|spacing|lg","bottom":"var:preset|spacing|xl"}}},"fontSize":"body","layout":{"type":"constrained"}} -->
+<div
+  class="wp-block-group has-body-font-size"
+  style="
+    margin-top: var(--wp--preset--spacing--lg);
+    margin-bottom: var(--wp--preset--spacing--xl);
+    padding-top: 0;
+    padding-right: var(--wp--preset--spacing--lg);
+    padding-bottom: 0;
+    padding-left: var(--wp--preset--spacing--lg);
+  "
+>
+  <!-- wp:group {"metadata":{"name":"Author Information"},"style":{"spacing":{"blockGap":"var:preset|spacing|sm"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
+  <div class="wp-block-group">
+    <!-- wp:avatar {"style":{"border":{"radius":"8px"}}} /-->
+
+    <!-- wp:group {"metadata":{"name":"Author Biography"},"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
+    <div class="wp-block-group">
+      <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|sm"}},"fontSize":"h2","fontFamily":"heading","layout":{"type":"flex","flexWrap":"none"}} -->
+      <div class="wp-block-group has-heading-font-family has-h-2-font-size">
+        <!-- wp:paragraph -->
+        <p>Articles by</p>
+        <!-- /wp:paragraph -->
+
+        <!-- wp:post-author-name /-->
+      </div>
+      <!-- /wp:group -->
+
+      <!-- wp:post-author-biography {"textAlign":"center","style":{"elements":{"link":{"color":{"text":"var:preset|color|neutral-700"}}}},"textColor":"neutral-700","fontSize":"body"} /-->
+    </div>
+    <!-- /wp:group -->
+  </div>
+  <!-- /wp:group -->
+</div>
+<!-- /wp:group -->
+

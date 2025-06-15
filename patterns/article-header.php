@@ -1,0 +1,36 @@
+<?php
+/**
+ * Title: Article Header
+ * Slug: pagea/article-header
+ * Categories: header, posts
+ * Description: A post header that displays the categories, title, author, publish date, and featured image.
+ * Keywords: article, header, post, intro, title
+ */
+?>
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"var:preset|spacing|lg","right":"var:preset|spacing|lg"},"margin":{"top":"var:preset|spacing|md","bottom":"var:preset|spacing|xl"},"blockGap":"var:preset|spacing|sm"}},"layout":{"type":"constrained"}} -->
+<div
+  class="wp-block-group"
+  style="
+    margin-top: var(--wp--preset--spacing--md);
+    margin-bottom: var(--wp--preset--spacing--xl);
+    padding-top: 0;
+    padding-right: var(--wp--preset--spacing--lg);
+    padding-bottom: 0;
+    padding-left: var(--wp--preset--spacing--lg);
+  "
+>
+  <!-- wp:post-terms {"term":"category","style":{"elements":{"link":{"color":{"text":"var:preset|color|neutral-700"}}},"spacing":{"padding":{"top":"var:preset|spacing|xs","bottom":"var:preset|spacing|xs","left":"var:preset|spacing|sm","right":"var:preset|spacing|sm"}},"border":{"radius":"8px"}},"backgroundColor":"neutral-200","textColor":"neutral-700","fontSize":"small"} /-->
+
+  <!-- wp:post-title {"level":1} /-->
+
+  <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|sm"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+  <div class="wp-block-group">
+    <!-- wp:post-author-name {"isLink":true,"style":{"elements":{"link":{"color":{"text":"var:preset|color|neutral-600"}}}},"textColor":"neutral-600","fontSize":"small"} /-->
+
+    <!-- wp:post-date {"style":{"elements":{"link":{"color":{"text":"var:preset|color|neutral-600"}}}},"textColor":"neutral-600","fontSize":"small"} /-->
+  </div>
+  <!-- /wp:group -->
+
+  <!-- wp:post-featured-image {"aspectRatio":"2/1","style":{"spacing":{"margin":{"top":"var:preset|spacing|md"}},"border":{"radius":"8px"}}} /-->
+</div>
+<!-- /wp:group -->

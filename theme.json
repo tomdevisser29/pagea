@@ -1,0 +1,786 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 3,
+  "settings": {
+    "border": {
+      "color": true,
+      "radius": true,
+      "style": true,
+      "width": true
+    },
+    "custom": {
+      "border-radius": {
+        "xl": "2rem",
+        "lg": "1rem",
+        "md": "0.5rem",
+        "sm": "0.35rem",
+        "xs": "0.125rem",
+        "default": "var:custom|border-radius|md"
+      }
+    },
+    "color": {
+      "background": true,
+      "custom": false,
+      "customDuotone": false,
+      "customGradient": false,
+      "defaultDuotone": false,
+      "defaultGradients": false,
+      "defaultPalette": false,
+      "duotone": [],
+      "gradients": [],
+      "link": true,
+      "palette": [
+        {
+          "color": "#252122",
+          "name": "Neutral 900",
+          "slug": "neutral-900"
+        },
+        {
+          "color": "#4c4243",
+          "name": "Neutral 800",
+          "slug": "neutral-800"
+        },
+        {
+          "color": "#7d6665",
+          "name": "Neutral 700",
+          "slug": "neutral-700"
+        },
+        {
+          "color": "#ad928c",
+          "name": "Neutral 600",
+          "slug": "neutral-600"
+        },
+        {
+          "color": "#dac6bd",
+          "name": "Neutral 500",
+          "slug": "neutral-500"
+        },
+        {
+          "color": "#eaddd5",
+          "name": "Neutral 400",
+          "slug": "neutral-400"
+        },
+        {
+          "color": "#f5ede9",
+          "name": "Neutral 200",
+          "slug": "neutral-200"
+        },
+        {
+          "color": "#f9f5f3",
+          "name": "Neutral 100",
+          "slug": "neutral-100"
+        },
+        {
+          "color": "#2f100b",
+          "name": "Primary 900",
+          "slug": "primary-900"
+        },
+        {
+          "color": "#621709",
+          "name": "Primary 800",
+          "slug": "primary-800"
+        },
+        {
+          "color": "#851c06",
+          "name": "Primary 700",
+          "slug": "primary-700"
+        },
+        {
+          "color": "#cc2e00",
+          "name": "Primary 600",
+          "slug": "text-primary-600"
+        },
+        {
+          "color": "#ff5718",
+          "name": "Primary 500",
+          "slug": "primary-500"
+        },
+        {
+          "color": "#ffa06c",
+          "name": "Primary 400",
+          "slug": "primary-400"
+        },
+        {
+          "color": "#fed8bd",
+          "name": "Primary 300",
+          "slug": "primary-300"
+        },
+        {
+          "color": "#feeadb",
+          "name": "Primary 200",
+          "slug": "primary-200"
+        },
+        {
+          "color": "#fef4eb",
+          "name": "Primary 100",
+          "slug": "primary-100"
+        },
+        {
+          "color": "#2f017c",
+          "name": "Secondary 900",
+          "slug": "secondary-900"
+        },
+        {
+          "color": "#4001a7",
+          "name": "Secondary 800",
+          "slug": "secondary-800"
+        },
+        {
+          "color": "#4e00cd",
+          "name": "Secondary 700",
+          "slug": "secondary-700"
+        },
+        {
+          "color": "#8e4efd",
+          "name": "Secondary 600",
+          "slug": "secondary-600"
+        },
+        {
+          "color": "#a16afe",
+          "name": "Secondary 500",
+          "slug": "secondary-500"
+        },
+        {
+          "color": "#b98ffd",
+          "name": "Secondary 400",
+          "slug": "secondary-400"
+        },
+        {
+          "color": "#ddcafe",
+          "name": "Secondary 300",
+          "slug": "secondary-300"
+        },
+        {
+          "color": "#f0e7fe",
+          "name": "Secondary 200",
+          "slug": "secondary-200"
+        },
+        {
+          "color": "#fbf9fd",
+          "name": "Secondary 100",
+          "slug": "secondary-100"
+        },
+        {
+          "color": "#091d14",
+          "name": "Success 900",
+          "slug": "success-900"
+        },
+        {
+          "color": "#0e3a22",
+          "name": "Success 800",
+          "slug": "success-800"
+        },
+        {
+          "color": "#0b4e2b",
+          "name": "Success 700",
+          "slug": "success-700"
+        },
+        {
+          "color": "#077c35",
+          "name": "Success 600",
+          "slug": "success-600"
+        },
+        {
+          "color": "#02a73a",
+          "name": "Success 500",
+          "slug": "success-500"
+        },
+        {
+          "color": "#00d439",
+          "name": "Success 400",
+          "slug": "success-400"
+        },
+        {
+          "color": "#62fe67",
+          "name": "Success 300",
+          "slug": "success-300"
+        },
+        {
+          "color": "#c1feba",
+          "name": "Success 200",
+          "slug": "success-200"
+        },
+        {
+          "color": "#defed9",
+          "name": "Success 100",
+          "slug": "success-100"
+        },
+        {
+          "color": "#320c11",
+          "name": "Error 900",
+          "slug": "error-900"
+        },
+        {
+          "color": "#680a14",
+          "name": "Error 800",
+          "slug": "error-800"
+        },
+        {
+          "color": "#8d0611",
+          "name": "Error 700",
+          "slug": "error-700"
+        },
+        {
+          "color": "#d90006",
+          "name": "Error 600",
+          "slug": "error-600"
+        },
+        {
+          "color": "#ff5449",
+          "name": "Error 500",
+          "slug": "error-500"
+        },
+        {
+          "color": "#ff9d90",
+          "name": "Error 400",
+          "slug": "solid-error-400"
+        },
+        {
+          "color": "#fed8d0",
+          "name": "Error 300",
+          "slug": "error-300"
+        },
+        {
+          "color": "#fee9e5",
+          "name": "Error 200",
+          "slug": "error-200"
+        },
+        {
+          "color": "#fef3f1",
+          "name": "Error 100",
+          "slug": "error-100"
+        },
+        {
+          "color": "#2a130b",
+          "name": "Warning 900",
+          "slug": "warning-900"
+        },
+        {
+          "color": "#56230a",
+          "name": "Warning 800",
+          "slug": "warning-800"
+        },
+        {
+          "color": "#723108",
+          "name": "Warning 700",
+          "slug": "warning-700"
+        },
+        {
+          "color": "#ae5100",
+          "name": "Warning 600",
+          "slug": "warning-600"
+        },
+        {
+          "color": "#db7700",
+          "name": "Warning 500",
+          "slug": "warning-500"
+        },
+        {
+          "color": "#ffa312",
+          "name": "Warning 400",
+          "slug": "warning-400"
+        },
+        {
+          "color": "#fedd6c",
+          "name": "Warning 300",
+          "slug": "warning-300"
+        },
+        {
+          "color": "#feee95",
+          "name": "Warning 200",
+          "slug": "warning-200"
+        },
+        {
+          "color": "#fef8bb",
+          "name": "Warning 100",
+          "slug": "warning-100"
+        },
+        {
+          "color": "#fff",
+          "name": "White",
+          "slug": "white"
+        },
+        {
+          "color": "#cab2aa80",
+          "name": "Alpha Neutral Strong",
+          "slug": "alpha-neutral-strong"
+        },
+        {
+          "color": "#cab2aa4d",
+          "name": "Alpha Neutral Medium",
+          "slug": "alpha-neutral-medium"
+        },
+        {
+          "color": "#cab2aa1a",
+          "name": "Alpha Neutral Weak",
+          "slug": "alpha-neutral-weak"
+        },
+        {
+          "color": "#cc2e0080",
+          "name": "Alpha Primary Strong",
+          "slug": "alpha-primary-strong"
+        },
+        {
+          "color": "#cc2e004d",
+          "name": "Alpha Primary Medium",
+          "slug": "alpha-primary-medium"
+        },
+        {
+          "color": "#cc2e001a",
+          "name": "Alpha Primary Weak",
+          "slug": "alpha-primary-weak"
+        },
+        {
+          "color": "#8e4efd80",
+          "name": "Alpha Secondary Strong",
+          "slug": "alpha-secondary-strong"
+        },
+        {
+          "color": "#8e4efd4d",
+          "name": "Alpha Secondary Medium",
+          "slug": "alpha-secondary-medium"
+        },
+        {
+          "color": "#8e4efd1a",
+          "name": "Alpha Secondary Weak",
+          "slug": "alpha-secondary-weak"
+        },
+        {
+          "color": "#077c3580",
+          "name": "Alpha Success Strong",
+          "slug": "alpha-success-strong"
+        },
+        {
+          "color": "#077c354d",
+          "name": "Alpha Success Medium",
+          "slug": "alpha-success-medium"
+        },
+        {
+          "color": "#077c351a",
+          "name": "Alpha Success Weak",
+          "slug": "alpha-success-weak"
+        },
+        {
+          "color": "#ae510080",
+          "name": "Alpha Warning Strong",
+          "slug": "alpha-warning-strong"
+        },
+        {
+          "color": "#ae51004d",
+          "name": "Alpha Warning Medium",
+          "slug": "alpha-warning-medium"
+        },
+        {
+          "color": "#ae51001a",
+          "name": "Alpha Warning Weak",
+          "slug": "alpha-warning-weak"
+        },
+        {
+          "color": "#db000780",
+          "name": "Alpha Error Strong",
+          "slug": "alpha-error-strong"
+        },
+        {
+          "color": "#db00074d",
+          "name": "Alpha Error Medium",
+          "slug": "alpha-error-medium"
+        },
+        {
+          "color": "#db00071a",
+          "name": "Alpha Error Weak",
+          "slug": "alpha-error-weak"
+        }
+      ],
+      "text": true,
+      "button": true,
+      "caption": true,
+      "heading": true
+    },
+    "dimensions": {
+      "minHeight": true,
+      "aspectRatio": true,
+      "defaultAspectRatios": true,
+      "aspectRatios": [
+        {
+          "name": "Landscape",
+          "ratio": "2/1",
+          "slug": "landscape"
+        }
+      ]
+    },
+    "layout": {
+      "contentSize": "42rem",
+      "wideSize": "84rem",
+      "allowEditing": false,
+      "allowCustomContentAndWideSize": false
+    },
+    "position": {
+      "sticky": true
+    },
+    "shadow": {
+      "defaultPresets": false,
+      "presets": [
+        {
+          "name": "XS",
+          "slug": "xs",
+          "shadow": "0px 2px 4px 0px hsla(3, 11%, 44%, .161), 0px 0px 2px 0px hsla(3, 11%, 44%, .141)"
+        },
+        {
+          "name": "S",
+          "slug": "s",
+          "shadow": "0px 4px 8px 0px hsla(3, 11%, 44%, .161), 0px 0px 4px 0px hsla(3, 11%, 44%, .141)"
+        },
+        {
+          "name": "M",
+          "slug": "m",
+          "shadow": "0px 4px 8px 2px hsla(3, 11%, 44%, .161), 0px 2px 4px 0px hsla(3, 11%, 44%, .141)"
+        },
+        {
+          "name": "L",
+          "slug": "l",
+          "shadow": "0px 8px 16px 4px hsla(3, 11%, 44%, .161), 0px 4px 4px 0px hsla(3, 11%, 44%, .141)"
+        },
+        {
+          "name": "XL",
+          "slug": "xl",
+          "shadow": "0px 8px 24px 8px hsla(3, 11%, 44%, .161), 0px 4px 8px 0px hsla(3, 11%, 44%, .239)"
+        }
+      ]
+    },
+    "spacing": {
+      "defaultSpacingSizes": false,
+      "blockGap": true,
+      "customSpacingSize": false,
+      "margin": true,
+      "padding": true,
+      "spacingScale": {
+        "steps": 0
+      },
+      "spacingSizes": [
+        {
+          "name": "Extra Small - 0.5rem",
+          "size": "0.5rem",
+          "slug": "xs"
+        },
+        {
+          "name": "Small - 1rem",
+          "size": "1rem",
+          "slug": "sm"
+        },
+        {
+          "name": "Medium - 1.5rem",
+          "size": "1.5rem",
+          "slug": "md"
+        },
+        {
+          "name": "Large - 2.5rem",
+          "size": "2.5rem",
+          "slug": "lg"
+        },
+        {
+          "name": "Extra Large - 3rem",
+          "size": "3rem",
+          "slug": "xl"
+        }
+      ],
+      "units": ["rem"]
+    },
+    "typography": {
+      "customFontSize": false,
+      "dropCap": false,
+      "textAlign": true,
+      "textColumns": true,
+      "writingMode": true,
+      "textTransform": true,
+      "textDecoration": true,
+      "lineHeight": false,
+      "letterSpacing": false,
+      "fontWeight": true,
+      "fontStyle": true,
+      "fluid": true,
+      "defaultFontSizes": false,
+      "fontFamilies": [
+        {
+          "name": "Body",
+          "slug": "body",
+          "fontFamily": "\"Pathway Extreme\", system-ui, sans-serif",
+          "fontFace": [
+            {
+              "fontFamily": "Pathway Extreme",
+              "fontWeight": "300 500 700",
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "src": [
+                "file:./assets/fonts/pathway-extreme/PathwayExtreme-Variable.ttf"
+              ]
+            },
+            {
+              "fontFamily": "Pathway Extreme",
+              "fontWeight": "300 700",
+              "fontStyle": "italic",
+              "fontStretch": "normal",
+              "src": [
+                "file:./assets/fonts/pathway-extreme/PathwayExtreme-Italic-Variable.ttf"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Heading",
+          "slug": "heading",
+          "fontFamily": "\"Noto Serif\", serif",
+          "fontFace": [
+            {
+              "fontFamily": "Noto Serif",
+              "fontWeight": "300 700",
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "src": [
+                "file:./assets/fonts/noto-serif/NotoSerif-VariableFont.ttf"
+              ]
+            },
+            {
+              "fontFamily": "Noto Serif",
+              "fontWeight": "300 700",
+              "fontStyle": "italic",
+              "fontStretch": "normal",
+              "src": [
+                "file:./assets/fonts/noto-serif/NotoSerif-Italic-VariableFont.ttf"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Monospace",
+          "slug": "monospace",
+          "fontFamily": "\"Space Mono\", monospace",
+          "fontFace": [
+            {
+              "fontFamily": "Space Mono",
+              "fontWeight": "400",
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "src": ["file:./assets/fonts/space-mono/SpaceMono-Regular.ttf"]
+            },
+            {
+              "fontFamily": "Space Mono",
+              "fontWeight": "700",
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "src": ["file:./assets/fonts/space-mono/SpaceMono-Bold.ttf"]
+            },
+            {
+              "fontFamily": "Space Mono",
+              "fontWeight": "400",
+              "fontStyle": "italic",
+              "fontStretch": "normal",
+              "src": ["file:./assets/fonts/space-mono/SpaceMono-Italic.ttf"]
+            },
+            {
+              "fontFamily": "Space Mono",
+              "fontWeight": "700",
+              "fontStyle": "italic",
+              "fontStretch": "normal",
+              "src": ["file:./assets/fonts/space-mono/SpaceMono-BoldItalic.ttf"]
+            }
+          ]
+        }
+      ],
+      "fontSizes": [
+        {
+          "name": "Heading 0",
+          "slug": "h0",
+          "size": "clamp(2.63rem, 6.25vw + 1.38rem, 4.5rem)"
+        },
+        {
+          "name": "Heading 1",
+          "slug": "h1",
+          "size": "clamp(2.63rem, 1.25vw + 2.38rem, 3rem)"
+        },
+        {
+          "name": "Heading 2",
+          "slug": "h2",
+          "size": "clamp(2.38rem, 0.42vw + 2.29rem, 2.5rem)"
+        },
+        {
+          "name": "Heading 3",
+          "slug": "h3",
+          "size": "clamp(2rem, 0vw + 2rem, 2rem)"
+        },
+        {
+          "name": "Heading 4",
+          "slug": "h4",
+          "size": "clamp(1.75rem, 0vw + 1.75rem, 1.75rem)"
+        },
+        {
+          "name": "Heading 5",
+          "slug": "h5",
+          "size": "clamp(1.5rem, 0vw + 1.5rem, 1.5rem)"
+        },
+        {
+          "name": "Heading 6",
+          "slug": "h6",
+          "size": "clamp(1.38rem, -0.42vw + 1.46rem, 1.25rem)"
+        },
+        {
+          "name": "Medium",
+          "slug": "medium",
+          "size": "clamp(1.13rem, 0.42vw + 1.04rem, 1.25rem)"
+        },
+        {
+          "name": "Body",
+          "slug": "body",
+          "size": "1rem"
+        },
+        {
+          "name": "Small",
+          "slug": "small",
+          "size": "0.8rem"
+        },
+        {
+          "name": "Tiny",
+          "slug": "tiny",
+          "size": "0.7rem"
+        }
+      ]
+    },
+    "useRootPaddingAwareAlignments": true
+  },
+  "styles": {
+    "border": {
+      "radius": "var:custom|border-radius|md"
+    },
+    "color": {
+      "background": "var:preset|color|neutral-100",
+      "text": "var:preset|color|neutral-800"
+    },
+    "typography": {
+      "fontFamily": "var:preset|font-family|body",
+      "fontWeight": "400",
+      "lineHeight": "1.75",
+      "fontSize": "var:preset|font-size|body"
+    },
+    "blocks": {
+      "core/image": {
+        "border": {
+          "radius": "var:custom|border-radius|md"
+        }
+      },
+      "core/pullquote": {
+        "typography": {
+          "fontSize": "var:preset|font-size|h-5",
+          "fontFamily": "var:preset|font-family|heading",
+          "fontWeight": "300",
+          "lineHeight": "1.3",
+          "textAlign": "left"
+        }
+      }
+    },
+    "elements": {
+      "heading": {
+        "typography": {
+          "fontFamily": "var:preset|font-family|heading",
+          "fontWeight": "300",
+          "lineHeight": "1.1"
+        }
+      },
+      "h1": {
+        "typography": {
+          "fontSize": "var:preset|font-size|h-1"
+        }
+      },
+      "h2": {
+        "typography": {
+          "fontSize": "var:preset|font-size|h-2"
+        }
+      },
+      "h3": {
+        "typography": {
+          "fontSize": "var:preset|font-size|h-3"
+        }
+      },
+      "h4": {
+        "typography": {
+          "fontSize": "var:preset|font-size|h-4"
+        }
+      },
+      "h5": {
+        "typography": {
+          "fontSize": "var:preset|font-size|h-5"
+        }
+      },
+      "h6": {
+        "typography": {
+          "fontSize": "var:preset|font-size|h-6"
+        }
+      },
+      "link": {
+        "color": {
+          "text": "var:preset|color|primary-500"
+        },
+        ":hover": {
+          "color": {
+            "text": "var:preset|color|primary-700"
+          }
+        }
+      },
+      "cite": {
+        "typography": {
+          "fontFamily": "var:preset|font-family|body",
+          "fontSize": "var:preset|font-size|body",
+          "fontStyle": "normal",
+          "fontWeight": "500"
+        }
+      },
+      "caption": {
+        "typography": {
+          "fontSize": "var:preset|font-size|small",
+          "textAlign": "right"
+        },
+        "color": {
+          "text": "var:preset|color|neutral-600"
+        }
+      },
+      "button": {
+        "color": {
+          "background": "var:preset|color|neutral-900",
+          "text": "var:preset|color|neutral-200"
+        },
+        "border": {
+          "radius": "var:custom|border-radius|sm"
+        },
+        "spacing": {
+          "padding": {
+            "bottom": "12px",
+            "left": "20px",
+            "right": "20px",
+            "top": "12px"
+          }
+        },
+        "typography": {
+          "lineHeight": "1.1"
+        },
+        ":hover": {
+          "color": {
+            "background": "var:preset|color|neutral-800",
+            "text": "var:preset|color|neutral-100"
+          }
+        }
+      }
+    }
+  },
+  "customTemplates": [],
+  "templateParts": [
+    {
+      "title": "Header",
+      "name": "header",
+      "area": "header"
+    },
+    {
+      "title": "Footer",
+      "name": "footer",
+      "area": "footer"
+    }
+  ],
+  "patterns": []
+}
