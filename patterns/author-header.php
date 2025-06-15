@@ -35,7 +35,7 @@
       </div>
       <!-- /wp:group -->
 
-      <!-- wp:post-author-biography {"textAlign":"center","style":{"elements":{"link":{"color":{"text":"var:preset|color|neutral-700"}}}},"textColor":"neutral-700","fontSize":"body"} /-->
+      <!-- wp:post-author-biography {"textAlign":"center","style":{"elements":{"link":{"color":{"text":"var:preset|color|neutral-700"}}}},"textColor":"var:preset|color|neutral-700","fontSize":"body"} /-->
     </div>
     <!-- /wp:group -->
   </div>
