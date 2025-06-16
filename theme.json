@@ -660,6 +660,12 @@
       "lineHeight": "1.75",
       "fontSize": "var:preset|font-size|body"
     },
+    "spacing": {
+      "padding": {
+        "left": "0",
+        "right": "0"
+      }
+    },
     "blocks": {
       "core/image": {
         "border": {
@@ -720,6 +726,11 @@
           }
         },
         "css": "list-style: none;"
+      },
+      "core/separator": {
+        "border": {
+          "width": "1px"
+        }
       }
     },
     "elements": {
