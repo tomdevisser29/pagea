@@ -675,6 +675,16 @@
           "textAlign": "left"
         }
       },
+      "core/post-featured-image": {
+        "border": {
+          "radius": "var:custom|border-radius|md"
+        }
+      },
+      "core/media-text": {
+        "border": {
+          "radius": "var:custom|border-radius|md"
+        }
+      },
       "core/button": {
         "color": {
           "background": "var:preset|color|neutral-900",
@@ -696,6 +706,20 @@
             }
           }
         }
+      },
+      "core/social-link": {
+        "color": {
+          "background": "var:preset|color|neutral-800",
+          "text": "var:preset|color|neutral-200"
+        }
+      },
+      "core/page-list": {
+        "spacing": {
+          "padding": {
+            "left": "0"
+          }
+        },
+        "css": "list-style: none;"
       }
     },
     "elements": {
